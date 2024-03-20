@@ -1,0 +1,155 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-family: "Circular", sans-serif;  
+  background-color: #00CF30;
+}
+
+.main{
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #F5F5F5;
+  height: 690px;
+  width: 400px;
+}
+
+#pfp, #title{
+  display: inline;
+}
+
+#title{
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  left: 26px;
+}
+
+#pfp{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  left: 62%;
+  top: 10px;
+}
+
+.money{
+  background-color: white;
+  margin: 0 auto;
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+#Btext, Atext{
+  display: inline;
+}
+
+#Atext{
+  position: relative;
+  font-weight: bolder;
+  font-size: 12px;
+  color: grey;
+  left: 175px;
+  top: -14px;
+}
+
+#Btext{
+  position: relative;
+  font-weight: bolder;
+  top: 15px;
+  left: 10px;
+}
+
+#symbol, #amount, #amount::placeholder{
+  display: inline;
+  position: relative;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+#symbol{
+  left: 8px;
+}
+
+#amount{
+  background-color: transparent;
+  border: 0px none transparent;
+  width: 300px;
+}
+
+#add, #out{
+  position: relative;
+  background-color: #F5F5F5;
+  height: 50px;
+  width: 150px;
+  border-radius: 100px;
+  border: 1px solid #F5F5F5;
+  top: 20px;
+  left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.saving,.bitcoin,.stocks{
+  position: absolute;
+  border-radius: 20px;
+  background-color: white;
+  width: 160px;
+  height: 178px;
+  margin-left: 24px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.saving,.bitcoin{
+  display: inline;
+}
+
+.bitcoin{
+  margin-left: 220px;
+}
+.saving p,.bitcoin p, .stocks p, #stockslogo,#moneylogo,#bitcoinlogo{
+  margin-left: 10px;
+}
+
+.stocks{
+  margin-top: 240px;
+}
+
+#stockslogo,#moneylogo,#bitcoinlogo{
+  height: 35px;
+  width: 35px;
+}
+
+#symbol2, #smoney{
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  font-size: 23px;
+  width: 80px;
+  color: black;
+  top: 50px;
+  left: -50px;
+}
+
+ #smoney{
+  color: black;
+  background-color: transparent;
+  border: 0px none transparent;
+ }
+
+#smoney::placeholder{
+  color: black;
+  font-weight: bolder;
+}
+
+#goal, #lowertext2, #lowertext3 {
+  margin-top: 63px;
+  color: grey;
+}
+
