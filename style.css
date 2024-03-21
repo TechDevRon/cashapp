@@ -16,6 +16,7 @@ body{
   background-color: #F5F5F5;
   height: 700px;
   width: 400px;
+  border: 4px solid #01D531;
 }
 
 #pfp, #title{
