@@ -1,90 +1,95 @@
-html {
-  height: 100%;
-  width: 100%;
-}
+  html {
+    height: 100%;
+    width: 100%;
+  }
 
-body{
-  font-family: "Circular", sans-serif;  
+  body {
+  font-family: "Circular", sans-serif;
   background-image: url(background.jpeg);
-}
+  }
 
-.main{
-  top: 0px;
-  margin: 0 auto;
-  overflow: hidden;
-  background-color: #F5F5F5;
-  height: 700px;
-  width: 400px;
-}
 
-#pfp, #title{
-  display: inline;
-}
+  .main {
+    border-radius: 50px;
+    position: sticky;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    height: 710px;
+    width: 410px;
+    border-top: 51px solid black;
+    border-bottom: 70px solid black;
+    border-left: 15px solid black;
+    border-right: 15px solid black;
+  }
 
-#title{
+  #pfp,#title {
+    display: inline;
+  }
+
+#title {
   position: relative;
   font-size: 20px;
   font-weight: bold;
-  left: 26px;
+  margin-left: 26px;
 }
 
-#pfp{
+#pfp {
   position: relative;
   height: 40px;
   width: 40px;
   border-radius: 50px;
-  left: 62%;
+  margin-left: 58%;
   top: 10px;
 }
 
-.money{
+.money {
   background-color: white;
   margin: 0 auto;
   width: 350px;
   height: 200px;
   border-radius: 20px;
   margin-top: 25px;
-}
+ }
 
-#Btext, Atext{
+#Btext,
+  Atext {
   display: inline;
 }
 
-#Atext{
+#Atext {
   position: relative;
   font-weight: bolder;
   font-size: 12px;
   color: grey;
   left: 175px;
   top: -14px;
-}
+  }
 
-#Btext{
+#Btext {
   position: relative;
   font-weight: bolder;
   top: 15px;
   left: 10px;
-}
+  }
 
-#symbol, #amount, #amount::placeholder{
+#symbol,#amount,#amount::placeholder {
   display: inline;
   position: relative;
   font-size: 40px;
-  color: black;
   font-weight: bold;
-}
+  }
 
-#symbol{
-  left: 8px;
-}
+  #symbol {
+    left: 8px;
+  }
 
-#amount{
+  #amount {
   background-color: transparent;
   border: 0px none transparent;
   width: 300px;
 }
 
-#add, #out{
+#add,#out {
   position: relative;
   background-color: #F5F5F5;
   height: 50px;
@@ -95,9 +100,9 @@ body{
   left: 20px;
   font-weight: bold;
   font-size: 16px;
-}
+  }
 
-.saving,.bitcoin,.stocks{
+.saving,.bitcoin,.stocks {
   position: absolute;
   border-radius: 20px;
   background-color: white;
@@ -107,50 +112,56 @@ body{
   margin-top: 20px;
   font-size: 15px;
 }
-.saving,.bitcoin{
-  display: inline;
-}
 
-.bitcoin{
-  margin-left: 220px;
-}
-.saving p,.bitcoin p, .stocks p, #stockslogo,#moneylogo,#bitcoinlogo{
+.saving,.bitcoin {
+  display: inline;
+  }
+
+  .bitcoin {
+    margin-left: 220px;
+  }
+
+.saving p,.bitcoin p,.stocks p,#stockslogo,#moneylogo,#bitcoinlogo {
   margin-left: 10px;
-}
+  }
 
-.stocks{
-  margin-top: 240px;
-}
+  .stocks {
+    margin-top: 240px;
+  }
 
-#stockslogo,#moneylogo,#bitcoinlogo{
-  height: 35px;
-  width: 35px;
-}
+  #stockslogo,
+  #moneylogo,
+  #bitcoinlogo {
+    height: 35px;
+    width: 35px;
+  }
 
-#symbol2, #smoney{
-  font-weight: bold;
-  display: inline;
-  position: relative;
-  font-size: 23px;
-  width: 80px;
-  color: black;
-  top: 50px;
-  left: -50px;
-}
+  #symbol2,
+  #smoney {
+    font-weight: bold;
+    display: inline;
+    position: relative;
+    font-size: 23px;
+    width: 80px;
+    color: black;
+    top: 50px;
+    left: -50px;
+  }
 
- #smoney{
-  color: black;
-  background-color: transparent;
-  border: 0px none transparent;
- }
+  #smoney {
+    color: black;
+    background-color: transparent;
+    border: 0px none transparent;
+  }
 
-#smoney::placeholder{
-  color: black;
-  font-weight: bolder;
-}
+  #smoney::placeholder {
+    color: black;
+    font-weight: bolder;
+  }
 
-#goal, #lowertext2, #lowertext3 {
-  margin-top: 63px;
-  color: grey;
-}
-
+  #goal,
+  #lowertext2,
+  #lowertext3 {
+    margin-top: 63px;
+    color: grey;
+  }
